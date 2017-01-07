@@ -1,6 +1,8 @@
 /AirlineRegistration.class
+/AnimalFarm.class
 /AreYouHappy.class
 /BirthdayReminder.class
+/HighLowGame.class
 /IKnowWhatYouDid.class
 /KnockKnock.class
 /Magic8Ball.class
@@ -14,5 +16,6 @@
 /UnBirthday.class
 /XGeeks.class
 /YearsAlive.class
-/AnimalFarm.class
-/HighLowGame.class
+/Validation.class
+/BananaQuiz.class
+/OddlyLoopy.class
