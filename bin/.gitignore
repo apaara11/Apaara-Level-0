@@ -1,6 +1,7 @@
 /AirlineRegistration.class
 /AnimalFarm.class
 /AreYouHappy.class
+/BananaQuiz.class
 /BirthdayReminder.class
 /HighLowGame.class
 /IKnowWhatYouDid.class
@@ -14,8 +15,9 @@
 /TheRiddler.class
 /TortoisColorChooser.class
 /UnBirthday.class
+/Validation.class
 /XGeeks.class
 /YearsAlive.class
-/Validation.class
-/BananaQuiz.class
-/OddlyLoopy.class
+/Lottery.class
+/VotingBooth.class
+/TortoiseWalkofFame.class
