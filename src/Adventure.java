@@ -25,7 +25,7 @@ public static void main(String[] args) {
 		}
 	}
 	if(operation==1){
-		JOptionPane.showMessageDialog(null, "Sorry, she got arrested for speeding and not being tight on the turns. Her carrer is OVER.");
+		JOptionPane.showMessageDialog(null, "Sorry, she got arrested for speeding and not being tight on the turns. Her career is OVER.");
 	}
 
 	

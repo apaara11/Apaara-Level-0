@@ -10,7 +10,11 @@ public static void main(String[] args) {
 	kaur.setSpeed(10);
 	kaur.setPenWidth(6);
 	kaur.setPenColor(Color.CYAN);
-	void drawLetterA{
+	
+	drawLetterA(kaur);
+	drawLetterK(kaur);
+}
+	static void drawLetterA(Robot kaur){
 	kaur.penDown();
 	kaur.turn(20);
 	kaur.move(200);
@@ -26,7 +30,7 @@ public static void main(String[] args) {
 	kaur.move(100);
 	kaur.turn(85);
 	}
-	void drawLetterK{
+	static void drawLetterK(Robot kaur){
 	kaur.moveTo(1060, 512);
 	kaur.turn(-166);
 	kaur.setPenColor(Color.GREEN);
@@ -44,5 +48,5 @@ public static void main(String[] args) {
 	
 	
 	
-}
+
 }

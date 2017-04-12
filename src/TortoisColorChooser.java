@@ -3,13 +3,15 @@
 import javax.swing.JOptionPane;
 import java.awt.Color;
 import org.teachingextensions.logo.Colors;
+import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 
 
 public class TortoisColorChooser {
 	public static void main(String[] args) {
 
-
+for(int i=0;i<20;i++){
+	Tortoise.setSpeed(6);
 		//3. ask the user what color they would like the tortoise to draw
 		String color= JOptionPane.showInputDialog("What color would you like the square to be? Write red or pink in all Caps");
 		//4. use an if/else statement to set the pen color that the user requested
@@ -19,12 +21,12 @@ public class TortoisColorChooser {
 		else if(color.equals("PINK")){
 			Tortoise.setPenColor(Color.PINK);
 		}
-		else {
+		else if(color.equals("BLACK")) {
 			Tortoise.setPenColor(Color.BLACK);
 		}
 //5. if the user doesn’t enter anything, choose a random color
-		if(color.equals()){
-			Tortoise.setPenColor("random");
+		else{
+			Tortoise.setPenColor(PenColors.getRandomColor());
 		}
 
 //6. put a loop around your code so that you keep asking the user for more colors & drawing them
@@ -38,7 +40,7 @@ public class TortoisColorChooser {
 			Tortoise.turn(90);
 		}
 		
-
+}
 
 	}
 }
