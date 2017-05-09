@@ -12,10 +12,10 @@ public class Pi {
 		// 3. Print out the first 3 digits of Pi to the console.
 		//    The first value is "pi.charAt(0)", the second is "pi.charAt(1)", etc.
 		//    Run your program to see how this works.
-		System.out.print(pi.charAt(0));
-		System.out.print(pi.charAt(1));
-		System.out.print(pi.charAt(2));
-		System.out.print(pi.charAt(3));
+		System.out.println(pi.charAt(0));
+		System.out.println(pi.charAt(1));
+		System.out.println(pi.charAt(2));
+		System.out.println(pi.charAt(3));
 		// 9. If you want to give the user more than one chance to guess,
 		//    put a for loop around steps 4-8.
 
